@@ -6,10 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./fav-photos.component.css']
 })
 export class FavPhotosComponent implements OnInit {
-  photosTitle = 'Photo/Image Section Title Here';
-  image1 = 'https://www.launchcode.org/assets/icons/target-00c7a0bc7776901e3c5cdc4c36c465f19e41a249bc7267a595f0bfa14ab944b7.png';
-  image2 = '';
-  image3 = '';
+  photosTitle = 'Favorite Photos';
+  image1 = 'https://i.ytimg.com/vi/mRf3-JkwqfU/sddefault.jpg';
+  image2 = 'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg ';
+  image3 = 'https://iheartdogs.com/wp-content/uploads/2019/01/siberian_husky.training_120476149_251778649544863_6165880252359897080_n-e1601592765529.jpg';
 
   constructor() { }
 
